@@ -17,10 +17,10 @@ Recuerda que puedes seguirnos en Twitter como @iPadSfera y en http://facebook.co
 
 ###3-TwitteriPadSfera
 
-* Video: http://www.youtube.com/watch?v=y8OcsAAys6U \n
+* Video: http://www.youtube.com/watch?v=y8OcsAAys6U
 * Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-3/
 
 ###4-Tabbar & Images
 
-* Video:
-* Post:
+* Video: http://www.youtube.com/watch?v=5oqTbEgyC0U
+* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-4/
