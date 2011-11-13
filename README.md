@@ -1,4 +1,4 @@
-<img src='http://www.ipadsfera.com/wp-content/uploads/2010/12/Publicidad-iPadSfera.png'>
+<p align='center'><img src='http://www.ipadsfera.com/wp-content/uploads/2010/12/Publicidad-iPadSfera.png'/> </p>
 iPadSfera Tutoriales iOS 
 ==========================
 
