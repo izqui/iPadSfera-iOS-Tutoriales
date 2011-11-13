@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1E04A74146AD0F100906C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E04A73146AD0F100906C0A /* UIKit.framework */; };
+		E1E04A76146AD0F100906C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E04A75146AD0F100906C0A /* Foundation.framework */; };
+		E1E04A78146AD0F100906C0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E04A77146AD0F100906C0A /* CoreGraphics.framework */; };
+		E1E04A7E146AD0F100906C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1E04A7C146AD0F100906C0A /* InfoPlist.strings */; };
+		E1E04A80146AD0F100906C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E04A7F146AD0F100906C0A /* main.m */; };
+		E1E04A84146AD0F100906C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E04A83146AD0F100906C0A /* AppDelegate.m */; };
+		E1E04A87146AD0F100906C0A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E04A85146AD0F100906C0A /* MainStoryboard.storyboard */; };
+		E1E04A8A146AD0F100906C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E04A89146AD0F100906C0A /* ViewController.m */; };
+		E1E04A91146AD10800906C0A /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E04A90146AD10800906C0A /* twitter.png */; };
+		E1E04A93146AD12600906C0A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E04A92146AD12600906C0A /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1E04A6F146AD0F100906C0A /* TwitteriPadSfera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitteriPadSfera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E04A73146AD0F100906C0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1E04A75146AD0F100906C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1E04A77146AD0F100906C0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1E04A7B146AD0F100906C0A /* TwitteriPadSfera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitteriPadSfera-Info.plist"; sourceTree = "<group>"; };
+		E1E04A7D146AD0F100906C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1E04A7F146AD0F100906C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1E04A81146AD0F100906C0A /* TwitteriPadSfera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitteriPadSfera-Prefix.pch"; sourceTree = "<group>"; };
+		E1E04A82146AD0F100906C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1E04A83146AD0F100906C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1E04A86146AD0F100906C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E1E04A88146AD0F100906C0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1E04A89146AD0F100906C0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1E04A90146AD10800906C0A /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../twitter.png; sourceTree = "<group>"; };
+		E1E04A92146AD12600906C0A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E04A6C146AD0F100906C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E04A93146AD12600906C0A /* Twitter.framework in Frameworks */,
+				E1E04A74146AD0F100906C0A /* UIKit.framework in Frameworks */,
+				E1E04A76146AD0F100906C0A /* Foundation.framework in Frameworks */,
+				E1E04A78146AD0F100906C0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1E04A64146AD0F100906C0A = {
+			isa = PBXGroup;
+			children = (
+				E1E04A79146AD0F100906C0A /* TwitteriPadSfera */,
+				E1E04A72146AD0F100906C0A /* Frameworks */,
+				E1E04A70146AD0F100906C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E04A70146AD0F100906C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E04A6F146AD0F100906C0A /* TwitteriPadSfera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E04A72146AD0F100906C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1E04A92146AD12600906C0A /* Twitter.framework */,
+				E1E04A73146AD0F100906C0A /* UIKit.framework */,
+				E1E04A75146AD0F100906C0A /* Foundation.framework */,
+				E1E04A77146AD0F100906C0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E04A79146AD0F100906C0A /* TwitteriPadSfera */ = {
+			isa = PBXGroup;
+			children = (
+				E1E04A90146AD10800906C0A /* twitter.png */,
+				E1E04A82146AD0F100906C0A /* AppDelegate.h */,
+				E1E04A83146AD0F100906C0A /* AppDelegate.m */,
+				E1E04A85146AD0F100906C0A /* MainStoryboard.storyboard */,
+				E1E04A88146AD0F100906C0A /* ViewController.h */,
+				E1E04A89146AD0F100906C0A /* ViewController.m */,
+				E1E04A7A146AD0F100906C0A /* Supporting Files */,
+			);
+			path = TwitteriPadSfera;
+			sourceTree = "<group>";
+		};
+		E1E04A7A146AD0F100906C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E04A7B146AD0F100906C0A /* TwitteriPadSfera-Info.plist */,
+				E1E04A7C146AD0F100906C0A /* InfoPlist.strings */,
+				E1E04A7F146AD0F100906C0A /* main.m */,
+				E1E04A81146AD0F100906C0A /* TwitteriPadSfera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E04A6E146AD0F100906C0A /* TwitteriPadSfera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E04A8D146AD0F100906C0A /* Build configuration list for PBXNativeTarget "TwitteriPadSfera" */;
+			buildPhases = (
+				E1E04A6B146AD0F100906C0A /* Sources */,
+				E1E04A6C146AD0F100906C0A /* Frameworks */,
+				E1E04A6D146AD0F100906C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitteriPadSfera;
+			productName = TwitteriPadSfera;
+			productReference = E1E04A6F146AD0F100906C0A /* TwitteriPadSfera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E04A66146AD0F100906C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = JIzqApps;
+			};
+			buildConfigurationList = E1E04A69146AD0F100906C0A /* Build configuration list for PBXProject "TwitteriPadSfera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1E04A64146AD0F100906C0A;
+			productRefGroup = E1E04A70146AD0F100906C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E04A6E146AD0F100906C0A /* TwitteriPadSfera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E04A6D146AD0F100906C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E04A7E146AD0F100906C0A /* InfoPlist.strings in Resources */,
+				E1E04A87146AD0F100906C0A /* MainStoryboard.storyboard in Resources */,
+				E1E04A91146AD10800906C0A /* twitter.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E04A6B146AD0F100906C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E04A80146AD0F100906C0A /* main.m in Sources */,
+				E1E04A84146AD0F100906C0A /* AppDelegate.m in Sources */,
+				E1E04A8A146AD0F100906C0A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1E04A7C146AD0F100906C0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E04A7D146AD0F100906C0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1E04A85146AD0F100906C0A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E04A86146AD0F100906C0A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E04A8B146AD0F100906C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1E04A8C146AD0F100906C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E04A8E146AD0F100906C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitteriPadSfera/TwitteriPadSfera-Prefix.pch";
+				INFOPLIST_FILE = "TwitteriPadSfera/TwitteriPadSfera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1E04A8F146AD0F100906C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitteriPadSfera/TwitteriPadSfera-Prefix.pch";
+				INFOPLIST_FILE = "TwitteriPadSfera/TwitteriPadSfera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E04A69146AD0F100906C0A /* Build configuration list for PBXProject "TwitteriPadSfera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E04A8B146AD0F100906C0A /* Debug */,
+				E1E04A8C146AD0F100906C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E04A8D146AD0F100906C0A /* Build configuration list for PBXNativeTarget "TwitteriPadSfera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E04A8E146AD0F100906C0A /* Debug */,
+				E1E04A8F146AD0F100906C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E04A66146AD0F100906C0A /* Project object */;
+}

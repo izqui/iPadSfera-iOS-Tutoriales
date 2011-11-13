@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12FA4C91466F1EA00B76426 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12FA4C81466F1EA00B76426 /* UIKit.framework */; };
+		E12FA4CB1466F1EA00B76426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12FA4CA1466F1EA00B76426 /* Foundation.framework */; };
+		E12FA4CD1466F1EA00B76426 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12FA4CC1466F1EA00B76426 /* CoreGraphics.framework */; };
+		E12FA4D31466F1EA00B76426 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E12FA4D11466F1EA00B76426 /* InfoPlist.strings */; };
+		E12FA4D51466F1EA00B76426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E12FA4D41466F1EA00B76426 /* main.m */; };
+		E12FA4D91466F1EA00B76426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E12FA4D81466F1EA00B76426 /* AppDelegate.m */; };
+		E12FA4DC1466F1EA00B76426 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12FA4DA1466F1EA00B76426 /* MainStoryboard.storyboard */; };
+		E12FA4DF1466F1EA00B76426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12FA4DE1466F1EA00B76426 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12FA4C41466F1EA00B76426 /* TextfieldsYBotones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextfieldsYBotones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FA4C81466F1EA00B76426 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E12FA4CA1466F1EA00B76426 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E12FA4CC1466F1EA00B76426 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E12FA4D01466F1EA00B76426 /* TextfieldsYBotones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextfieldsYBotones-Info.plist"; sourceTree = "<group>"; };
+		E12FA4D21466F1EA00B76426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E12FA4D41466F1EA00B76426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E12FA4D61466F1EA00B76426 /* TextfieldsYBotones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextfieldsYBotones-Prefix.pch"; sourceTree = "<group>"; };
+		E12FA4D71466F1EA00B76426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E12FA4D81466F1EA00B76426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E12FA4DB1466F1EA00B76426 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E12FA4DD1466F1EA00B76426 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E12FA4DE1466F1EA00B76426 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12FA4C11466F1EA00B76426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FA4C91466F1EA00B76426 /* UIKit.framework in Frameworks */,
+				E12FA4CB1466F1EA00B76426 /* Foundation.framework in Frameworks */,
+				E12FA4CD1466F1EA00B76426 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12FA4B91466F1EA00B76426 = {
+			isa = PBXGroup;
+			children = (
+				E12FA4CE1466F1EA00B76426 /* TextfieldsYBotones */,
+				E12FA4C71466F1EA00B76426 /* Frameworks */,
+				E12FA4C51466F1EA00B76426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12FA4C51466F1EA00B76426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12FA4C41466F1EA00B76426 /* TextfieldsYBotones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12FA4C71466F1EA00B76426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12FA4C81466F1EA00B76426 /* UIKit.framework */,
+				E12FA4CA1466F1EA00B76426 /* Foundation.framework */,
+				E12FA4CC1466F1EA00B76426 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12FA4CE1466F1EA00B76426 /* TextfieldsYBotones */ = {
+			isa = PBXGroup;
+			children = (
+				E12FA4D71466F1EA00B76426 /* AppDelegate.h */,
+				E12FA4D81466F1EA00B76426 /* AppDelegate.m */,
+				E12FA4DA1466F1EA00B76426 /* MainStoryboard.storyboard */,
+				E12FA4DD1466F1EA00B76426 /* ViewController.h */,
+				E12FA4DE1466F1EA00B76426 /* ViewController.m */,
+				E12FA4CF1466F1EA00B76426 /* Supporting Files */,
+			);
+			path = TextfieldsYBotones;
+			sourceTree = "<group>";
+		};
+		E12FA4CF1466F1EA00B76426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12FA4D01466F1EA00B76426 /* TextfieldsYBotones-Info.plist */,
+				E12FA4D11466F1EA00B76426 /* InfoPlist.strings */,
+				E12FA4D41466F1EA00B76426 /* main.m */,
+				E12FA4D61466F1EA00B76426 /* TextfieldsYBotones-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12FA4C31466F1EA00B76426 /* TextfieldsYBotones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FA4E21466F1EA00B76426 /* Build configuration list for PBXNativeTarget "TextfieldsYBotones" */;
+			buildPhases = (
+				E12FA4C01466F1EA00B76426 /* Sources */,
+				E12FA4C11466F1EA00B76426 /* Frameworks */,
+				E12FA4C21466F1EA00B76426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextfieldsYBotones;
+			productName = TextfieldsYBotones;
+			productReference = E12FA4C41466F1EA00B76426 /* TextfieldsYBotones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12FA4BB1466F1EA00B76426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = JIzqApps;
+			};
+			buildConfigurationList = E12FA4BE1466F1EA00B76426 /* Build configuration list for PBXProject "TextfieldsYBotones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E12FA4B91466F1EA00B76426;
+			productRefGroup = E12FA4C51466F1EA00B76426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12FA4C31466F1EA00B76426 /* TextfieldsYBotones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12FA4C21466F1EA00B76426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FA4D31466F1EA00B76426 /* InfoPlist.strings in Resources */,
+				E12FA4DC1466F1EA00B76426 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12FA4C01466F1EA00B76426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FA4D51466F1EA00B76426 /* main.m in Sources */,
+				E12FA4D91466F1EA00B76426 /* AppDelegate.m in Sources */,
+				E12FA4DF1466F1EA00B76426 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E12FA4D11466F1EA00B76426 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FA4D21466F1EA00B76426 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E12FA4DA1466F1EA00B76426 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12FA4DB1466F1EA00B76426 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12FA4E01466F1EA00B76426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E12FA4E11466F1EA00B76426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E12FA4E31466F1EA00B76426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextfieldsYBotones/TextfieldsYBotones-Prefix.pch";
+				INFOPLIST_FILE = "TextfieldsYBotones/TextfieldsYBotones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E12FA4E41466F1EA00B76426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextfieldsYBotones/TextfieldsYBotones-Prefix.pch";
+				INFOPLIST_FILE = "TextfieldsYBotones/TextfieldsYBotones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12FA4BE1466F1EA00B76426 /* Build configuration list for PBXProject "TextfieldsYBotones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FA4E01466F1EA00B76426 /* Debug */,
+				E12FA4E11466F1EA00B76426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12FA4E21466F1EA00B76426 /* Build configuration list for PBXNativeTarget "TextfieldsYBotones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FA4E31466F1EA00B76426 /* Debug */,
+				E12FA4E41466F1EA00B76426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12FA4BB1466F1EA00B76426 /* Project object */;
+}
