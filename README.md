@@ -27,5 +27,5 @@ Recuerda que puedes seguirnos en Twitter como @iPadSfera y en http://facebook.co
 
 ###5-Navegador iPadSfera
 
-* Video:
-* Post: 
+* Video: http://www.youtube.com/watch?v=P97JK4FaiAY
+* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-5/
