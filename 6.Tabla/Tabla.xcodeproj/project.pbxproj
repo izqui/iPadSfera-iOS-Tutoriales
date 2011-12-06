@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E158FA4B148E2EA500445C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E158FA4A148E2EA500445C4D /* UIKit.framework */; };
+		E158FA4D148E2EA500445C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E158FA4C148E2EA500445C4D /* Foundation.framework */; };
+		E158FA4F148E2EA500445C4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E158FA4E148E2EA500445C4D /* CoreGraphics.framework */; };
+		E158FA55148E2EA500445C4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E158FA53148E2EA500445C4D /* InfoPlist.strings */; };
+		E158FA57148E2EA500445C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E158FA56148E2EA500445C4D /* main.m */; };
+		E158FA5B148E2EA500445C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E158FA5A148E2EA500445C4D /* AppDelegate.m */; };
+		E158FA5E148E2EA500445C4D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E158FA5C148E2EA500445C4D /* MainStoryboard.storyboard */; };
+		E158FA69148E2EF800445C4D /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E158FA68148E2EF800445C4D /* TableVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E158FA46148E2EA500445C4D /* Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E158FA4A148E2EA500445C4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E158FA4C148E2EA500445C4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E158FA4E148E2EA500445C4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E158FA52148E2EA500445C4D /* Tabla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabla-Info.plist"; sourceTree = "<group>"; };
+		E158FA54148E2EA500445C4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E158FA56148E2EA500445C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E158FA58148E2EA500445C4D /* Tabla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabla-Prefix.pch"; sourceTree = "<group>"; };
+		E158FA59148E2EA500445C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E158FA5A148E2EA500445C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E158FA5D148E2EA500445C4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E158FA67148E2EF800445C4D /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableVC.h; path = ../TableVC.h; sourceTree = "<group>"; };
+		E158FA68148E2EF800445C4D /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableVC.m; path = ../TableVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E158FA43148E2EA500445C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E158FA4B148E2EA500445C4D /* UIKit.framework in Frameworks */,
+				E158FA4D148E2EA500445C4D /* Foundation.framework in Frameworks */,
+				E158FA4F148E2EA500445C4D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E158FA3B148E2EA400445C4D = {
+			isa = PBXGroup;
+			children = (
+				E158FA50148E2EA500445C4D /* Tabla */,
+				E158FA49148E2EA500445C4D /* Frameworks */,
+				E158FA47148E2EA500445C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E158FA47148E2EA500445C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E158FA46148E2EA500445C4D /* Tabla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E158FA49148E2EA500445C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E158FA4A148E2EA500445C4D /* UIKit.framework */,
+				E158FA4C148E2EA500445C4D /* Foundation.framework */,
+				E158FA4E148E2EA500445C4D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E158FA50148E2EA500445C4D /* Tabla */ = {
+			isa = PBXGroup;
+			children = (
+				E158FA59148E2EA500445C4D /* AppDelegate.h */,
+				E158FA5A148E2EA500445C4D /* AppDelegate.m */,
+				E158FA5C148E2EA500445C4D /* MainStoryboard.storyboard */,
+				E158FA67148E2EF800445C4D /* TableVC.h */,
+				E158FA68148E2EF800445C4D /* TableVC.m */,
+				E158FA51148E2EA500445C4D /* Supporting Files */,
+			);
+			path = Tabla;
+			sourceTree = "<group>";
+		};
+		E158FA51148E2EA500445C4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E158FA52148E2EA500445C4D /* Tabla-Info.plist */,
+				E158FA53148E2EA500445C4D /* InfoPlist.strings */,
+				E158FA56148E2EA500445C4D /* main.m */,
+				E158FA58148E2EA500445C4D /* Tabla-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E158FA45148E2EA500445C4D /* Tabla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E158FA64148E2EA500445C4D /* Build configuration list for PBXNativeTarget "Tabla" */;
+			buildPhases = (
+				E158FA42148E2EA500445C4D /* Sources */,
+				E158FA43148E2EA500445C4D /* Frameworks */,
+				E158FA44148E2EA500445C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabla;
+			productName = Tabla;
+			productReference = E158FA46148E2EA500445C4D /* Tabla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E158FA3D148E2EA400445C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = JIzqApps;
+			};
+			buildConfigurationList = E158FA40148E2EA400445C4D /* Build configuration list for PBXProject "Tabla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E158FA3B148E2EA400445C4D;
+			productRefGroup = E158FA47148E2EA500445C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E158FA45148E2EA500445C4D /* Tabla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E158FA44148E2EA500445C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E158FA55148E2EA500445C4D /* InfoPlist.strings in Resources */,
+				E158FA5E148E2EA500445C4D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E158FA42148E2EA500445C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E158FA57148E2EA500445C4D /* main.m in Sources */,
+				E158FA5B148E2EA500445C4D /* AppDelegate.m in Sources */,
+				E158FA69148E2EF800445C4D /* TableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E158FA53148E2EA500445C4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E158FA54148E2EA500445C4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E158FA5C148E2EA500445C4D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E158FA5D148E2EA500445C4D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E158FA62148E2EA500445C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E158FA63148E2EA500445C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E158FA65148E2EA500445C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabla/Tabla-Prefix.pch";
+				INFOPLIST_FILE = "Tabla/Tabla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E158FA66148E2EA500445C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabla/Tabla-Prefix.pch";
+				INFOPLIST_FILE = "Tabla/Tabla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E158FA40148E2EA400445C4D /* Build configuration list for PBXProject "Tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E158FA62148E2EA500445C4D /* Debug */,
+				E158FA63148E2EA500445C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E158FA64148E2EA500445C4D /* Build configuration list for PBXNativeTarget "Tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E158FA65148E2EA500445C4D /* Debug */,
+				E158FA66148E2EA500445C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E158FA3D148E2EA400445C4D /* Project object */;
+}
