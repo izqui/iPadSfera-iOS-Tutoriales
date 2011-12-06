@@ -29,3 +29,8 @@ Recuerda que puedes seguirnos en Twitter como @iPadSfera y en http://facebook.co
 
 * Video: http://www.youtube.com/watch?v=P97JK4FaiAY
 * Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-5/
+
+###6-Table View 1
+
+* Video: http://www.youtube.com/watch?v=kU76FoOcJdg
+* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-6/
