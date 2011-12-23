@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1B7696614A0F689000CB7EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B7696514A0F689000CB7EC /* UIKit.framework */; };
+		E1B7696814A0F689000CB7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B7696714A0F689000CB7EC /* Foundation.framework */; };
+		E1B7696A14A0F689000CB7EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B7696914A0F689000CB7EC /* CoreGraphics.framework */; };
+		E1B7697014A0F689000CB7EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1B7696E14A0F689000CB7EC /* InfoPlist.strings */; };
+		E1B7697214A0F689000CB7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7697114A0F689000CB7EC /* main.m */; };
+		E1B7697614A0F689000CB7EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7697514A0F689000CB7EC /* AppDelegate.m */; };
+		E1B7697E14A0F69B000CB7EC /* TableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7697D14A0F69B000CB7EC /* TableVC.m */; };
+		E1B7698014A0F729000CB7EC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B7697F14A0F729000CB7EC /* Storyboard.storyboard */; };
+		E1B7698314A0F787000CB7EC /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7698214A0F787000CB7EC /* DetailVC.m */; };
+		E1B7698A14A0FAB0000CB7EC /* ipadsfera.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B7698814A0FAB0000CB7EC /* ipadsfera.png */; };
+		E1B7698B14A0FAB0000CB7EC /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B7698914A0FAB0000CB7EC /* appstore.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1B7696114A0F689000CB7EC /* Tabla2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabla2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B7696514A0F689000CB7EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1B7696714A0F689000CB7EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1B7696914A0F689000CB7EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1B7696D14A0F689000CB7EC /* Tabla2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabla2-Info.plist"; sourceTree = "<group>"; };
+		E1B7696F14A0F689000CB7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1B7697114A0F689000CB7EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1B7697314A0F689000CB7EC /* Tabla2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabla2-Prefix.pch"; sourceTree = "<group>"; };
+		E1B7697414A0F689000CB7EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1B7697514A0F689000CB7EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1B7697C14A0F69B000CB7EC /* TableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC.h; sourceTree = "<group>"; };
+		E1B7697D14A0F69B000CB7EC /* TableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC.m; sourceTree = "<group>"; };
+		E1B7697F14A0F729000CB7EC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E1B7698114A0F787000CB7EC /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		E1B7698214A0F787000CB7EC /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		E1B7698814A0FAB0000CB7EC /* ipadsfera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadsfera.png; sourceTree = "<group>"; };
+		E1B7698914A0FAB0000CB7EC /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B7695E14A0F689000CB7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B7696614A0F689000CB7EC /* UIKit.framework in Frameworks */,
+				E1B7696814A0F689000CB7EC /* Foundation.framework in Frameworks */,
+				E1B7696A14A0F689000CB7EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B7695614A0F688000CB7EC = {
+			isa = PBXGroup;
+			children = (
+				E1B7696B14A0F689000CB7EC /* Tabla2 */,
+				E1B7696414A0F689000CB7EC /* Frameworks */,
+				E1B7696214A0F689000CB7EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B7696214A0F689000CB7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7696114A0F689000CB7EC /* Tabla2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B7696414A0F689000CB7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7696514A0F689000CB7EC /* UIKit.framework */,
+				E1B7696714A0F689000CB7EC /* Foundation.framework */,
+				E1B7696914A0F689000CB7EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1B7696B14A0F689000CB7EC /* Tabla2 */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7698814A0FAB0000CB7EC /* ipadsfera.png */,
+				E1B7698914A0FAB0000CB7EC /* appstore.png */,
+				E1B7697414A0F689000CB7EC /* AppDelegate.h */,
+				E1B7697514A0F689000CB7EC /* AppDelegate.m */,
+				E1B7697C14A0F69B000CB7EC /* TableVC.h */,
+				E1B7697D14A0F69B000CB7EC /* TableVC.m */,
+				E1B7698114A0F787000CB7EC /* DetailVC.h */,
+				E1B7698214A0F787000CB7EC /* DetailVC.m */,
+				E1B7697F14A0F729000CB7EC /* Storyboard.storyboard */,
+				E1B7696C14A0F689000CB7EC /* Supporting Files */,
+			);
+			path = Tabla2;
+			sourceTree = "<group>";
+		};
+		E1B7696C14A0F689000CB7EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7696D14A0F689000CB7EC /* Tabla2-Info.plist */,
+				E1B7696E14A0F689000CB7EC /* InfoPlist.strings */,
+				E1B7697114A0F689000CB7EC /* main.m */,
+				E1B7697314A0F689000CB7EC /* Tabla2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B7696014A0F689000CB7EC /* Tabla2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B7697914A0F689000CB7EC /* Build configuration list for PBXNativeTarget "Tabla2" */;
+			buildPhases = (
+				E1B7695D14A0F689000CB7EC /* Sources */,
+				E1B7695E14A0F689000CB7EC /* Frameworks */,
+				E1B7695F14A0F689000CB7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabla2;
+			productName = Tabla2;
+			productReference = E1B7696114A0F689000CB7EC /* Tabla2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B7695814A0F688000CB7EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = JIzqApps;
+			};
+			buildConfigurationList = E1B7695B14A0F688000CB7EC /* Build configuration list for PBXProject "Tabla2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1B7695614A0F688000CB7EC;
+			productRefGroup = E1B7696214A0F689000CB7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B7696014A0F689000CB7EC /* Tabla2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B7695F14A0F689000CB7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B7697014A0F689000CB7EC /* InfoPlist.strings in Resources */,
+				E1B7698014A0F729000CB7EC /* Storyboard.storyboard in Resources */,
+				E1B7698A14A0FAB0000CB7EC /* ipadsfera.png in Resources */,
+				E1B7698B14A0FAB0000CB7EC /* appstore.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B7695D14A0F689000CB7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B7697214A0F689000CB7EC /* main.m in Sources */,
+				E1B7697614A0F689000CB7EC /* AppDelegate.m in Sources */,
+				E1B7697E14A0F69B000CB7EC /* TableVC.m in Sources */,
+				E1B7698314A0F787000CB7EC /* DetailVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1B7696E14A0F689000CB7EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B7696F14A0F689000CB7EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1B7697714A0F689000CB7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1B7697814A0F689000CB7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B7697A14A0F689000CB7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabla2/Tabla2-Prefix.pch";
+				INFOPLIST_FILE = "Tabla2/Tabla2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1B7697B14A0F689000CB7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabla2/Tabla2-Prefix.pch";
+				INFOPLIST_FILE = "Tabla2/Tabla2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B7695B14A0F688000CB7EC /* Build configuration list for PBXProject "Tabla2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B7697714A0F689000CB7EC /* Debug */,
+				E1B7697814A0F689000CB7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B7697914A0F689000CB7EC /* Build configuration list for PBXNativeTarget "Tabla2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B7697A14A0F689000CB7EC /* Debug */,
+				E1B7697B14A0F689000CB7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B7695814A0F688000CB7EC /* Project object */;
+}
