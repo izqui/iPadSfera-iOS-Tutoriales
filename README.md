@@ -44,3 +44,9 @@ Recuerda que puedes seguirnos en Twitter como <a href="http://twitter.com/ipadsf
 
 * Video: http://www.youtube.com/watch?v=YxpQ92bzVaI
 * Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-8/
+
+
+###1-Hola iPadSfera
+
+* Video: http://www.youtube.com/watch?v=PngmajbYRUs 
+* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-1/
