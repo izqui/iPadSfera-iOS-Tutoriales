@@ -3,7 +3,7 @@ iPadSfera Tutoriales iOS
 ==========================
 
 Aquí iremos subiendo el código de los VideoTutoriales.
-Recuerda que puedes seguirnos en Twitter como @iPadSfera y en http://facebook.com/iPadSfera
+Recuerda que puedes seguirnos en Twitter como <a href="http://twitter.com/ipadsfera">@iPadSfera</a> y en <a href="http://facebook.com/iPadSfera">Facebook</a>
 
 ###1-Hola iPadSfera
 
@@ -38,4 +38,9 @@ Recuerda que puedes seguirnos en Twitter como @iPadSfera y en http://facebook.co
 ###7-Table View 2
 
 * Video: http://www.youtube.com/watch?v=lC_yIvozt5c
+* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-7/
+
+###8-Web services and NodeJS
+
+* Video: http://www.youtube.com/watch?v=YxpQ92bzVaI
 * Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-7/
