@@ -44,9 +44,3 @@ Recuerda que puedes seguirnos en Twitter como <a href="http://twitter.com/ipadsf
 
 * Video: http://www.youtube.com/watch?v=YxpQ92bzVaI
 * Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-8/
-
-
-###8-Web services and NodeJS
-
-* Video: http://www.youtube.com/watch?v=YxpQ92bzVaI
-* Post: http://www.ipadsfera.com/aprende-a-programar-aplicaciones-para-ios-capitulo-8/
